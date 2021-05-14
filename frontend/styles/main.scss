@@ -10,7 +10,7 @@
 
 // GLOBAL
 :root {
-  --bg-prim: #cbf0fc;
+  --bg-prim: #edf7fa;
   // --bg-prim: linear-gradient(#63a1b4, #a2c6d1);
   --bg-prim2: linear-gradient(#a2c6d1, #63a1b4);
   --btn-col: #ff9e53;
@@ -55,7 +55,7 @@ nav {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
   padding-top: 100px;
   position: relative;
-  box-shadow: 0px 100px 100px #77c1d8;
+  box-shadow: 0px 100px 100px #c9e5ee;
   &:hover {
     &::after {
       background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0));
@@ -84,8 +84,10 @@ nav {
 
 // Product
 .product {
-  .row {
+  .favorite {
     margin-top: 100px;
+  }
+  .row {
     .card {
       height: 350px;
       margin-bottom: 20px;
@@ -93,7 +95,7 @@ nav {
       overflow: hidden;
       &:hover {
         box-shadow: 0 10px 20px #2e2e2e;
-        background-color: #f6f8ff;
+        background-color: #ececec;
         img {
           transform: scale(1.3);
         }
