@@ -9,5 +9,6 @@
 <script src="{{ url('frontend/vendor/simplelightbox/simple-lightbox.min.js') }}"></script>
 <script src="{{ url('frontend/vendor/tilt-js/tilt.jquery.min.js') }}"></script>
 <script src="{{ url('frontend/vendor/xzoom/xzoom.min.js') }}"></script>
+<script src="{{ url('frontend/vendor/fotorama/fotorama.js') }}"></script>
 <script src="{{ url('frontend/vendor/ztext/ztext.min.js') }}"></script>
 <script src="{{ url('frontend/scripts/main.js') }}"></script>

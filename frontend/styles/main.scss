@@ -27,7 +27,7 @@ body {
 
 // Utilities
 .vertical-devider {
-  border-right: 2px solid #5f5f5f;
+  border-right: 2px solid #7e7e7e;
   margin: 0px 20px;
 }
 // End of utilities
@@ -154,6 +154,132 @@ nav {
   }
   p {
     color: #494949;
+  }
+}
+
+// Main
+main {
+  margin-top: 30px;
+  min-height: 79vh;
+  .content {
+    h3 {
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .row {
+      // Right Column
+      .col-right {
+        .position-sticky {
+          top: 20px;
+          .normal-price {
+            height: 25px;
+            strike {
+              color: #eb6d3c;
+              span {
+                color: #c5c5c5;
+              }
+            }
+          }
+          .price {
+            font-size: 24px;
+            color: var(--price-col);
+            font-weight: 600;
+            margin-bottom: 20px;
+          }
+          .quantity {
+            width: 120px;
+            input {
+              font-size: 16px;
+              font-weight: 700;
+              border: none;
+              border-bottom: 1px solid #818181;
+            }
+          }
+          .total-qty {
+            font-weight: 600;
+            font-size: 20px;
+          }
+        }
+      }
+      // Detail column
+      .detail {
+        .card {
+          h1 {
+            font-size: 26px;
+            font-weight: 600;
+          }
+          h2 {
+            font-size: 22px;
+            font-weight: 600;
+            margin-bottom: 20px;
+          }
+          .justify-content-between {
+            margin-top: -10px;
+          }
+        }
+      }
+      // Cart Lists
+      .cart-lists {
+        .card {
+          .card-body {
+            padding: 10px;
+            img {
+              width: 120px;
+              height: 120px;
+            }
+            h1 {
+              font-size: 22px;
+              font-weight: 400;
+              a {
+                text-decoration: none;
+                color: #2e2e2e;
+                &:hover {
+                  color: #7e7e7e;
+                }
+              }
+            }
+            .normal-price {
+              margin-top: -5px;
+              height: 20px;
+              strike {
+                color: #eb6d3c;
+                span {
+                  font-size: 18px;
+                  color: #c5c5c5;
+                }
+              }
+            }
+            h2 {
+              margin-top: 5px;
+              font-size: 22px;
+              font-weight: 700;
+            }
+            nav {
+              height: 33px;
+              a { margin-top: -7px; }
+              .vertical-devider { margin-top: -5px; }
+              .quantity {
+                width: 120px;
+                margin-top: 1px;
+                button {
+                  height: 30px;
+                  width: 30px;
+                  i {
+                    font-size: 10px;
+                  }
+                }
+                input {
+                  font-size: 16px;
+                  font-weight: 700;
+                  border: none;
+                  border-bottom: 1px solid #818181;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
 

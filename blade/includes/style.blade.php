@@ -10,4 +10,5 @@
 <link rel="stylesheet" href="{{ url('frontend/vendor/owlcarousel/owl.carousel.min.css') }}">
 <link rel="stylesheet" href="{{ url('frontend/vendor/simplelightbox/simple-lightbox.min.css') }}">
 <link rel="stylesheet" href="{{ url('frontend/vendor/xzoom/xzoom.css') }}">
+<link rel="stylesheet" href="{{ url('frontend/vendor/fotorama/fotorama.css') }}">
 <link rel="stylesheet" href="{{ url('frontend/styles/main.css') }}">
