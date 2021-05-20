@@ -27,6 +27,26 @@ body {
   margin: 0px 20px;
 }
 
+.text-blue {
+  color: #1859b9;
+}
+
+.bg-tertunda {
+  background-color: #ffc107;
+}
+
+.bg-dibuat {
+  background-color: #6c757d;
+}
+
+.bg-dikirim {
+  background-color: #17a2b8;
+}
+
+.bg-sukses {
+  background-color: #28a745;
+}
+
 nav .navbar-brand {
   font-family: "Courgette", cursive;
   font-weight: 700;
@@ -291,6 +311,91 @@ main .content .row .cart-lists .card .card-body .pembayaran img {
   height: 50px;
   width: 50px;
   border: 2px solid #1859b9;
+}
+main .content .row .transaction small {
+  font-size: 14px;
+  color: #727272;
+}
+main .content .row .transaction p {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+main .content .row .transaction p span {
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+}
+main .content .row .transaction a {
+  margin-top: 30px;
+  color: #ffffff;
+  background-color: #c2c2c2;
+}
+main .content .row .transaction img {
+  height: 60px;
+  width: 60px;
+  margin-right: 5px;
+}
+main .content .row .transaction h1 {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 10px;
+  color: var(--price-check);
+}
+main .content .row .transaction-detail .card-title {
+  font-size: 20px;
+  margin-top: 15px;
+}
+main .content .row .transaction-detail small {
+  font-size: 16px;
+  color: #727272;
+}
+main .content .row .transaction-detail span {
+  color: #ffffff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 5px;
+}
+main .content .row .transaction-detail p {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+main .content .row .transaction-detail .products img {
+  width: 60px;
+  height: 60px;
+}
+main .content .row .transaction-detail .products h1 {
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+main .content .row .transaction-detail .products h1 a {
+  text-decoration: none;
+  color: #2e2e2e;
+}
+main .content .row .transaction-detail .products h1 a:hover {
+  color: #7e7e7e;
+}
+main .content .row .transaction-detail .products h3 {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+main .content .row .transaction-detail .products h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+main .content .row .transaction-detail .subtotal p {
+  font-size: 16px;
+}
+main .content .row .transaction-detail .subtotal h4 {
+  font-size: 22px;
+  font-weight: 400;
+}
+main .content .row .transaction-detail .subtotal .sub-bold p {
+  font-weight: 600;
+}
+main .content .row .transaction-detail .subtotal .sub-bold h4 {
+  font-weight: 600;
 }
 main .success img {
   height: 250px;

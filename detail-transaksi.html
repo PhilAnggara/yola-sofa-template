@@ -51,50 +51,49 @@
     <div class="container content">
       <div class="row">
         <div class="col-12">
-          <h3 class="text-secondary mb-3">
-            <i class="fas fa-check fa-sm"></i> Periksa Pembelian Kamu
+          <h3 class="mb-3">
+            <a href="transaksi.html" class="text-decoration-none text-dark">
+              <i class="fas fa-chevron-left fa-sm"></i>
+              Kembali
+            </a>
           </h3>
         </div>
-        <div class="col-sm-8 cart-lists">
+        <div class="col-12 transaction-detail">
           <div class="card rounded-lg shadow mb-3">
-            <div class="card-body p-4">
-              <h5 class="card-title font-italic">Alamat Pengiriman</h5>
-              <form>
-                <div class="form-row">
-                  <div class="col">
-                    <label for="colFormLabelSm" class="col-form-label col-form-label-sm">Nama Penerima</label>
-                    <input type="text" class="form-control" placeholder="Tuliskan Nama Penerima">
-                  </div>
-                  <div class="col">
-                    <label for="colFormLabelSm" class="col-form-label col-form-label-sm">Nomor Telepon</label>
-                    <input type="text" class="form-control" placeholder="Masukan Nomor Telepon">
-                  </div>
-                </div>
-                <div class="form-row">
-                  <div class="col">
-                    <label for="colFormLabelSm" class="col-form-label col-form-label-sm">Kabupaten / Kota</label>
-                    <select class="custom-select" id="inputGroupSelect01">
-                      <option selected disabled>Pilih Kabupaten / Kota</option>
-                      <option value="Manado">Manado</option>
-                      <option value="Minahasa Utara">Minahasa Utara</option>
-                    </select>
-                  </div>
-                  <div class="col">
-                    <label for="colFormLabelSm" class="col-form-label col-form-label-sm">Kecamatan</label>
-                    <input type="text" class="form-control" placeholder="Tuliskan Nama Kecamatan">
-                  </div>
-                </div>
-                <div class="form-row">
-                  <div class="col">
-                    <label for="colFormLabelSm" class="col-form-label col-form-label-sm">Alamat</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="2" placeholder="Isi dengan nama jalan, nomor rumah, nomor kompleks, nama gedung, lantai atau link google maps"></textarea>
-                  </div>
-                </div>
-              </form>
-            </div>
-            <div class="card-body border-top p-4">
+            <div class="card-body">
               <div class="row">
-                <div class="col-sm-7 products-checkout">
+                <div class="col-6">
+                  <h5 class="card-title mb-3 font-weight-bold">Transaksi #1000347839247</h5>
+                </div>
+                <div class="col-6 text-right">
+                  <small>10 Mei 2021</small>
+                  <br>
+                  <span class="bg-tertunda">Tertunda</span>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-4">
+                  <p class="text-blue font-weight-bold">DIKIRIM KE</p>
+                </div>
+                <div class="col-8">
+                  <p class="font-weight-bold">Tommy Ramba</p>
+                  <p>085155117682</p>
+                  <p>https://goo.gl/maps/ACLyGfvmzRTSxNh66</p>
+                  <p>Kecamatan Dumoga, Bolaang Mongondow</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-4">
+                  <p class="text-blue font-weight-bold">METODE PEMBAYARAN</p>
+                </div>
+                <div class="col-8">
+                  <p class="font-weight-bold">Transfer</p>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-sm-8">
                   <div class="products">
                     <img src="frontend/images/sofa1.jpg" class="rounded float-left mr-4">
                     <div class="container">
@@ -123,62 +122,22 @@
                     <hr>
                   </div>
                 </div>
-                <div class="col-sm-5 pembayaran">
-                  <h5 class="card-title font-italic">Pilih Metode Pembayaran</h5>
-                  <form action="">
-                    <select class="custom-select" id="inputGroupSelect01">
-                      <option value="Transfer">Transfer</option>
-                      <option value="COD">COD</option>
-                    </select>
-                    <p class="instruksi font-weight-bold mt-2 mb-0">Instruksi Pembayaran</p>
-                    <p class="instruksi font-italic text-secondary">
-                      Silahkan melakukan pembayaran sesuai nominal "Total Tagihan" sebelum melanjutkan transaksi
-                    </p>
-                    <div class="row no-gutters">
-                      <img src="frontend/images/BRI.png" class="rounded-circle float-left d-inline-block align-middle mt-2 mr-2">
-                      <div class="d-inline-block align-middle">
-                        <p class="instruksi font-weight-bold mb-0">UD Yola Sofa</p>
-                        <p class="mb-0">2024 0374 9384 8304</p>
-                        <p class="text-blue font-weight-bold">Bank BRI</p>
+                <div class="col-sm-4">
+                  <div class="card shadow-sm">
+                    <div class="card-body subtotal">
+                      <div class="row">
+                        <div class="col-6"><p>Subtotal</p></div>
+                        <div class="col-6 text-right sub-bold"><p>Rp 40.000.000</p></div>
+                        <div class="col-6"><p>Pengiriman</p></div>
+                        <div class="col-6 text-right sub-bold"><p>Rp 100.000</p></div>
+                        <div class="col-6"><h4>Total</h4></div>
+                        <div class="col-6 text-right sub-bold"><h4>Rp 40.100.000</h4></div>
                       </div>
+                      <button class="btn btn-block btn-danger mt-2">Batalkan Pesanan</button>
                     </div>
-                    <p class="instruksi font-weight-bold mt-2 mb-0">Sertakan Bukti Transfer</p>
-                    <div class="custom-file">
-                      <input type="file" class="custom-file-input" id="customFile">
-                      <label class="custom-file-label" for="customFile">Pilih Gambar</label>
-                    </div>
-                  </form>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-sm-4 col-right">
-          <div class="card rounded-lg shadow position-sticky">
-            <div class="card-body">
-              <h5 class="card-title mb-3">Ringkasan Belanja</h5>
-              <hr>
-              <div class="row justify-content-between px-3">
-                <p>Total Harga (4 Produk)</p>
-                <p class="font-weight-bold">Rp 40.000.000</p>
-              </div>
-              <div class="row justify-content-between px-3">
-                <p>Biaya Pengiriman</p>
-                <p class="font-weight-bold">Rp 100.000</p>
-              </div>
-              <hr>
-              <div class="row justify-content-between px-3">
-                <p class="font-weight-bold">Total Harga</p>
-                <p class="price-checkout">Rp 40.000.000</p>
-              </div>
-              <a href="sukses.html" class="btn btn-primary btn-block font-weight-bold">
-                <i class="fas fa-money-check fa-sm"></i>
-                Sudah Melakukan Pembayaran
-              </a>
-              <!-- <button class="btn btn-primary btn-block font-weight-bold">
-                Beli (4)
-              </button> -->
             </div>
           </div>
         </div>
