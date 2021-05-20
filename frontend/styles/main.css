@@ -14,6 +14,7 @@
   --btn-col-hov: #ffbe8c;
   --f-prim: "Assistant", sans-serif;
   --price-col: #377ce4;
+  --price-check: #f08344;
 }
 
 body {
@@ -175,6 +176,12 @@ main .content .row .col-right .position-sticky .price {
   font-weight: 600;
   margin-bottom: 20px;
 }
+main .content .row .col-right .position-sticky .price-checkout {
+  font-size: 20px;
+  color: var(--price-check);
+  font-weight: 600;
+  margin-bottom: 20px;
+}
 main .content .row .col-right .position-sticky .quantity {
   width: 120px;
 }
@@ -259,6 +266,45 @@ main .content .row .cart-lists .card .card-body nav .quantity input {
   font-weight: 700;
   border: none;
   border-bottom: 1px solid #818181;
+}
+main .content .row .cart-lists .card .card-body .products-checkout img {
+  width: 80px;
+  height: 80px;
+}
+main .content .row .cart-lists .card .card-body .products-checkout h1 {
+  font-size: 22px;
+}
+main .content .row .cart-lists .card .card-body .products-checkout h3 {
+  font-size: 14px;
+}
+main .content .row .cart-lists .card .card-body .products-checkout h2 {
+  font-size: 16px;
+}
+main .content .row .cart-lists .card .card-body .pembayaran .card-title {
+  font-size: 16px;
+  font-weight: 700;
+}
+main .content .row .cart-lists .card .card-body .pembayaran .instruksi {
+  font-size: 14px;
+}
+main .content .row .cart-lists .card .card-body .pembayaran img {
+  height: 50px;
+  width: 50px;
+  border: 2px solid #1859b9;
+}
+main .success img {
+  height: 250px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+main .success h1 {
+  font-size: 32px;
+  font-weight: 700;
+}
+main .success p {
+  font-weight: 26px;
+  font-style: italic;
+  color: #727272;
 }
 
 .chat {

@@ -17,6 +17,7 @@
   --btn-col-hov: #ffbe8c;
   --f-prim: "Assistant", sans-serif;
   --price-col: #377ce4;
+  --price-check: #f08344;
 }
 body {
   background: var(--bg-prim);
@@ -187,6 +188,12 @@ main {
             font-weight: 600;
             margin-bottom: 20px;
           }
+          .price-checkout {
+            font-size: 20px;
+            color: var(--price-check);
+            font-weight: 600;
+            margin-bottom: 20px;
+          }
           .quantity {
             width: 120px;
             input {
@@ -277,9 +284,48 @@ main {
                 }
               }
             }
+            .products-checkout {
+              img {
+                width: 80px;
+                height: 80px;
+              }
+              h1 { font-size: 22px; }
+              h3 { font-size: 14px; }
+              h2 { font-size: 16px; }
+            }
+            .pembayaran {
+              .card-title {
+                font-size: 16px;
+                font-weight: 700;
+              }
+              .instruksi {
+                font-size: 14px;
+              }
+              img {
+                height: 50px;
+                width: 50px;
+                border: 2px solid #1859b9;
+              }
+            }
           }
         }
       }
+    }
+  }
+  .success {
+    img {
+      height: 250px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 700;
+    }
+    p {
+      font-weight: 26px;
+      font-style: italic;
+      color: #727272;
     }
   }
 }
