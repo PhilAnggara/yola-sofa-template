@@ -7,19 +7,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
-:root {
-  --bg-prim: #edf7fa;
-  --bg-prim2: linear-gradient(#a2c6d1, #63a1b4);
-  --btn-col: #ff9e53;
-  --btn-col-hov: #ffbe8c;
-  --f-prim: "Assistant", sans-serif;
-  --price-col: #377ce4;
-  --price-check: #f08344;
-}
-
 body {
-  background: var(--bg-prim);
-  font-family: var(--f-prim);
+  background: #edf7fa;
+  font-family: "Assistant", sans-serif;
 }
 
 .vertical-devider {
@@ -51,6 +41,10 @@ nav .navbar-brand {
   font-family: "Courgette", cursive;
   font-weight: 700;
   font-size: 26px;
+}
+nav .navbar-brand img {
+  width: 50px;
+  height: 50px;
 }
 nav .navbar-nav input {
   width: 500px !important;
@@ -128,7 +122,7 @@ nav .navbar-nav input {
 }
 .product .row .card .price {
   font-size: 24px;
-  color: var(--price-col);
+  color: #377ce4;
   font-weight: 600;
   margin-top: -10px;
 }
@@ -192,13 +186,13 @@ main .content .row .col-right .position-sticky .normal-price strike span {
 }
 main .content .row .col-right .position-sticky .price {
   font-size: 24px;
-  color: var(--price-col);
+  color: #377ce4;
   font-weight: 600;
   margin-bottom: 20px;
 }
 main .content .row .col-right .position-sticky .price-checkout {
   font-size: 20px;
-  color: var(--price-check);
+  color: #f08344;
   font-weight: 600;
   margin-bottom: 20px;
 }
@@ -340,7 +334,7 @@ main .content .row .transaction h1 {
   font-size: 26px;
   font-weight: 600;
   margin-top: 10px;
-  color: var(--price-check);
+  color: #f08344;
 }
 main .content .row .transaction-detail .card-title {
   font-size: 20px;
@@ -432,4 +426,76 @@ main .success p {
 }
 .chat i {
   margin-top: 16px;
+}
+
+@media (max-width: 992px) {
+  nav .navbar-brand {
+    font-size: 26px;
+  }
+  nav .navbar-brand img {
+    width: 50px;
+    height: 50px;
+  }
+  nav .navbar-nav input {
+    width: 300px !important;
+  }
+  nav .navbar-nav .nav-hiden-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000 !important;
+  }
+  nav .navbar-nav .vertical-devider {
+    display: none;
+  }
+  nav .navbar-nav .btn-login {
+    margin: 10px 0;
+  }
+
+  .jumbotron {
+    height: 350px;
+    padding-top: 80px;
+  }
+  .jumbotron .container .display-4 {
+    font-size: 34px;
+  }
+
+  .product .favorite {
+    margin-top: 80px;
+  }
+  .product .row .card {
+    height: 240px;
+  }
+  .product .row .card img {
+    height: 120px;
+  }
+  .product .row .card .product-name {
+    font-size: 16px;
+  }
+  .product .row .card .normal-price {
+    height: 25px;
+    font-size: 12px;
+  }
+  .product .row .card .price {
+    font-size: 16px;
+  }
+  .product .row .card .variant {
+    margin-top: -10px;
+  }
+  .product .row .card .variant i {
+    margin-right: 2px;
+    font-size: 20px;
+  }
+  .product .see-other {
+    margin-top: 30px;
+  }
+
+  .chat {
+    width: 50px;
+    height: 50px;
+    bottom: 30vh;
+    right: 10px;
+  }
+  .chat i {
+    margin-top: 10px;
+  }
 }/*# sourceMappingURL=main.css.map */

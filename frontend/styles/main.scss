@@ -1,30 +1,28 @@
-@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Viga&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 // GLOBAL
-:root {
-  --bg-prim: #edf7fa;
-  // --bg-prim: linear-gradient(#63a1b4, #a2c6d1);
-  --bg-prim2: linear-gradient(#a2c6d1, #63a1b4);
-  --btn-col: #ff9e53;
-  --btn-col-hov: #ffbe8c;
-  --f-prim: "Assistant", sans-serif;
-  --price-col: #377ce4;
-  --price-check: #f08344;
-}
+
+// Variable
+$bg-prim: #edf7fa;
+$bg-prim2: linear-gradient(#a2c6d1, #63a1b4);
+$btn-col: #ff9e53;
+$btn-col-hov: #ffbe8c;
+$f-prim: "Assistant", sans-serif;
+$price-col: #377ce4;
+$price-check: #f08344;
+
 body {
-  background: var(--bg-prim);
-  font-family: var(--f-prim);
+  background: $bg-prim;
+  font-family: $f-prim;
 }
-// END OF GLOBAL
-// *************
 
 // Utilities
 .vertical-devider {
@@ -46,7 +44,9 @@ body {
 .bg-sukses {
   background-color: #28a745;
 }
-// End of utilities
+
+// END OF GLOBAL
+// *************
 
 // Navbar
 nav {
@@ -54,6 +54,10 @@ nav {
     font-family: 'Courgette', cursive;
     font-weight: 700;
     font-size: 26px;
+    img {
+      width: 50px;
+      height: 50px;
+    }
   }
   .navbar-nav {
     input {
@@ -138,7 +142,7 @@ nav {
       }
       .price {
         font-size: 24px;
-        color: var(--price-col);
+        color: $price-col;
         font-weight: 600;
         margin-top: -10px;
       }
@@ -146,7 +150,7 @@ nav {
         margin-top: -10px;
         i {
           margin-right: 2px;
-          font-size: 30px;;
+          font-size: 30px;
         }
         .warna1 { color: #aa784b; }
         .warna2 { color: #365857; }
@@ -199,13 +203,13 @@ main {
           }
           .price {
             font-size: 24px;
-            color: var(--price-col);
+            color: $price-col;
             font-weight: 600;
             margin-bottom: 20px;
           }
           .price-checkout {
             font-size: 20px;
-            color: var(--price-check);
+            color: $price-check;
             font-weight: 600;
             margin-bottom: 20px;
           }
@@ -354,7 +358,7 @@ main {
           font-size: 26px;
           font-weight: 600;
           margin-top: 10px;
-          color: var(--price-check);
+          color: $price-check;
         }
       }
       .transaction-detail {
@@ -463,5 +467,5 @@ main {
 // ******
 // MOBILE
 @media (max-width: 992px) {
-  @import "mobile.scss";  
+  @import 'mobile';  
 }
