@@ -1,15 +1,18 @@
 // Navbar
 nav {
   .navbar-brand {
-    font-size: 26px;
+    font-size: 20px;
     img {
-      width: 50px;
-      height: 50px;
+      width: 30px;
+      height: 30px;
     }
   }
   .navbar-nav {
-    input {
-      width: 300px !important;
+    form {
+      justify-content: center;
+      input {
+        width: 300px !important;
+      }
     }
     .nav-hiden-text {
       font-size: 18px;
@@ -27,11 +30,18 @@ nav {
 
 // Jumbotron
 .jumbotron {
-  height: 350px;
+  height: 320px;
   padding-top: 80px;
   .container {
     .display-4 {
-      font-size: 34px;
+      font-size: 30px;
+    }
+    .lead {
+      font-size: 16px;
+    }
+    a {
+      padding: 3px 10px;
+      font-size: 20px;
     }
   }
 }
@@ -43,31 +53,43 @@ nav {
   }
   .row {
     .card {
-      height: 240px;
+      height: 220px;
       img {
         height: 120px;
       }
-      .product-name {
-        font-size: 16px;
-      }
-      .normal-price {
-        height: 25px;
-        font-size: 12px;
-      }
-      .price {
-        font-size: 16px;
-      }
-      .variant {
-        margin-top: -10px;
-        i {
-          margin-right: 2px;
-          font-size: 20px;
+      .card-body {
+        padding: 8px;
+        .product-name {
+          font-size: 16px;
+        }
+        .normal-price {
+          height: 25px;
+          font-size: 12px;
+        }
+        .price {
+          font-size: 16px;
+        }
+        .variant {
+          margin-top: -10px;
+          i {
+            margin-right: 2px;
+            font-size: 20px;
+          }
         }
       }
     }
   }
   .see-other {
     margin-top: 30px;
+  }
+}
+// About
+.about {
+  margin-top: 50px;
+  padding: 20px 0;
+  p {
+    font-size: 14px;
+    margin-bottom: 10px;
   }
 }
 
