@@ -511,6 +511,239 @@ main .success p {
     margin-bottom: 10px;
   }
 
+  main {
+    min-height: 82vh;
+  }
+  main .content h3 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  main .content .row .col-right .position-sticky .normal-price {
+    height: 20px;
+  }
+  main .content .row .col-right .position-sticky .normal-price strike span {
+    font-size: 14px;
+  }
+  main .content .row .col-right .position-sticky .price {
+    font-size: 22px;
+  }
+  main .content .row .detail .card h1 {
+    font-size: 20px;
+  }
+  main .content .row .detail .card .card-subtitle {
+    font-size: 12px;
+  }
+  main .content .row .detail .card h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  main .content .row .cart-lists .card .card-body {
+    padding: 10px;
+  }
+  main .content .row .cart-lists .card .card-body img {
+    width: 120px;
+    height: 120px;
+  }
+  main .content .row .cart-lists .card .card-body h1 {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  main .content .row .cart-lists .card .card-body h1 a {
+    text-decoration: none;
+    color: #2e2e2e;
+  }
+  main .content .row .cart-lists .card .card-body h1 a:hover {
+    color: #7e7e7e;
+  }
+  main .content .row .cart-lists .card .card-body .normal-price {
+    margin-top: -5px;
+    height: 20px;
+  }
+  main .content .row .cart-lists .card .card-body .normal-price strike {
+    color: #eb6d3c;
+  }
+  main .content .row .cart-lists .card .card-body .normal-price strike span {
+    font-size: 18px;
+    color: #c5c5c5;
+  }
+  main .content .row .cart-lists .card .card-body h2 {
+    margin-top: 5px;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  main .content .row .cart-lists .card .card-body nav {
+    height: 33px;
+  }
+  main .content .row .cart-lists .card .card-body nav a {
+    margin-top: -7px;
+  }
+  main .content .row .cart-lists .card .card-body nav .vertical-devider {
+    margin-top: -5px;
+  }
+  main .content .row .cart-lists .card .card-body nav .quantity {
+    width: 120px;
+    margin-top: 1px;
+  }
+  main .content .row .cart-lists .card .card-body nav .quantity button {
+    height: 30px;
+    width: 30px;
+  }
+  main .content .row .cart-lists .card .card-body nav .quantity button i {
+    font-size: 10px;
+  }
+  main .content .row .cart-lists .card .card-body nav .quantity input {
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-bottom: 1px solid #818181;
+  }
+  main .content .row .cart-lists .card .card-body .products-checkout img {
+    width: 80px;
+    height: 80px;
+  }
+  main .content .row .cart-lists .card .card-body .products-checkout h1 {
+    font-size: 22px;
+  }
+  main .content .row .cart-lists .card .card-body .products-checkout h3 {
+    font-size: 14px;
+  }
+  main .content .row .cart-lists .card .card-body .products-checkout h2 {
+    font-size: 16px;
+  }
+  main .content .row .cart-lists .card .card-body .pembayaran .card-title {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  main .content .row .cart-lists .card .card-body .pembayaran .instruksi {
+    font-size: 14px;
+  }
+  main .content .row .cart-lists .card .card-body .pembayaran img {
+    height: 50px;
+    width: 50px;
+    border: 2px solid #1859b9;
+  }
+  main .content .row .transaction small {
+    font-size: 14px;
+    color: #727272;
+  }
+  main .content .row .transaction p {
+    font-size: 18px;
+    margin-bottom: 3px;
+  }
+  main .content .row .transaction p span {
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  main .content .row .transaction a {
+    margin-top: 30px;
+    color: #ffffff;
+    background-color: #c2c2c2;
+  }
+  main .content .row .transaction img {
+    height: 60px;
+    width: 60px;
+    margin-right: 5px;
+  }
+  main .content .row .transaction h1 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #f08344;
+  }
+  main .content .row .transaction-detail .card-title {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+  main .content .row .transaction-detail small {
+    font-size: 16px;
+    color: #727272;
+  }
+  main .content .row .transaction-detail span {
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  main .content .row .transaction-detail p {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  main .content .row .transaction-detail .products img {
+    width: 60px;
+    height: 60px;
+  }
+  main .content .row .transaction-detail .products h1 {
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
+  main .content .row .transaction-detail .products h1 a {
+    text-decoration: none;
+    color: #2e2e2e;
+  }
+  main .content .row .transaction-detail .products h1 a:hover {
+    color: #7e7e7e;
+  }
+  main .content .row .transaction-detail .products h3 {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  main .content .row .transaction-detail .products h2 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  main .content .row .transaction-detail .subtotal p {
+    font-size: 16px;
+  }
+  main .content .row .transaction-detail .subtotal h4 {
+    font-size: 22px;
+    font-weight: 400;
+  }
+  main .content .row .transaction-detail .subtotal .sub-bold p {
+    font-weight: 600;
+  }
+  main .content .row .transaction-detail .subtotal .sub-bold h4 {
+    font-weight: 600;
+  }
+  main .success img {
+    height: 250px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  main .success h1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  main .success p {
+    font-weight: 26px;
+    font-style: italic;
+    color: #727272;
+  }
+
+  .chat {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #ffffff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  .chat:hover {
+    background-color: #42db7a;
+    color: #ffffff;
+  }
+  .chat i {
+    margin-top: 16px;
+  }
+
   .chat {
     width: 50px;
     height: 50px;
