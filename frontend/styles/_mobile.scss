@@ -102,46 +102,6 @@ main {
       font-weight: 500;
     }
     .row {
-      // Right Column
-      .col-right {
-        .position-sticky {
-          .card-title {
-            font-size: 18px;
-          }
-          p {
-            font-size: 14px;
-          }
-          .normal-price {
-            height: 20px;
-            strike {
-              span {
-                font-size: 14px;
-              }
-            }
-          }
-          .price {
-            font-size: 20px;
-          }
-          // .price-checkout {
-          //   font-size: 20px;
-          //   color: $price-check;
-          //   font-weight: 600;
-          //   margin-bottom: 20px;
-          // }
-          // .quantity {
-          //   width: 120px;
-          //   input {
-          //     font-size: 16px;
-          //     font-weight: 700;
-          //     border: none;
-          //     border-bottom: 1px solid #818181;
-          //   }
-          // }
-          .total-qty {
-            font-size: 18px;
-          }
-        }
-      }
       // Detail column
       .detail {
         .card {
@@ -154,6 +114,14 @@ main {
           h2 {
             font-size: 18px;
             margin-bottom: 20px;
+          }
+          .specification {
+            .spec-title {
+              font-size: 16px;
+            }
+            p {
+              font-size: 14px;
+            }
           }
         }
       }
@@ -196,6 +164,7 @@ main {
                 }
               }
             }
+            h5 { font-size: 18px; }
             .products-checkout {
               img {
                 width: 80px;
@@ -219,6 +188,46 @@ main {
                 border: 2px solid #1859b9;
               }
             }
+          }
+        }
+      }
+      // Right Column
+      .col-right {
+        .position-sticky {
+          .card-title {
+            font-size: 18px;
+          }
+          p {
+            font-size: 14px;
+          }
+          .normal-price {
+            height: 20px;
+            strike {
+              span {
+                font-size: 14px;
+              }
+            }
+          }
+          .price {
+            font-size: 20px;
+          }
+          // .price-checkout {
+          //   font-size: 20px;
+          //   color: $price-check;
+          //   font-weight: 600;
+          //   margin-bottom: 20px;
+          // }
+          // .quantity {
+          //   width: 120px;
+          //   input {
+          //     font-size: 16px;
+          //     font-weight: 700;
+          //     border: none;
+          //     border-bottom: 1px solid #818181;
+          //   }
+          // }
+          .value {
+            font-size: 18px;
           }
         }
       }

@@ -518,24 +518,6 @@ main .success p {
     font-size: 16px;
     font-weight: 500;
   }
-  main .content .row .col-right .position-sticky .card-title {
-    font-size: 18px;
-  }
-  main .content .row .col-right .position-sticky p {
-    font-size: 14px;
-  }
-  main .content .row .col-right .position-sticky .normal-price {
-    height: 20px;
-  }
-  main .content .row .col-right .position-sticky .normal-price strike span {
-    font-size: 14px;
-  }
-  main .content .row .col-right .position-sticky .price {
-    font-size: 20px;
-  }
-  main .content .row .col-right .position-sticky .total-qty {
-    font-size: 18px;
-  }
   main .content .row .detail .card h1 {
     font-size: 20px;
   }
@@ -545,6 +527,12 @@ main .success p {
   main .content .row .detail .card h2 {
     font-size: 18px;
     margin-bottom: 20px;
+  }
+  main .content .row .detail .card .specification .spec-title {
+    font-size: 16px;
+  }
+  main .content .row .detail .card .specification p {
+    font-size: 14px;
   }
   main .content .row .cart-lists .card .card-body img {
     width: 80px;
@@ -583,6 +571,9 @@ main .success p {
   main .content .row .cart-lists .card .card-body nav .quantity button i {
     font-size: 10px;
   }
+  main .content .row .cart-lists .card .card-body h5 {
+    font-size: 18px;
+  }
   main .content .row .cart-lists .card .card-body .products-checkout img {
     width: 80px;
     height: 80px;
@@ -607,6 +598,24 @@ main .success p {
     height: 50px;
     width: 50px;
     border: 2px solid #1859b9;
+  }
+  main .content .row .col-right .position-sticky .card-title {
+    font-size: 18px;
+  }
+  main .content .row .col-right .position-sticky p {
+    font-size: 14px;
+  }
+  main .content .row .col-right .position-sticky .normal-price {
+    height: 20px;
+  }
+  main .content .row .col-right .position-sticky .normal-price strike span {
+    font-size: 14px;
+  }
+  main .content .row .col-right .position-sticky .price {
+    font-size: 20px;
+  }
+  main .content .row .col-right .position-sticky .value {
+    font-size: 18px;
   }
   main .content .row .transaction small {
     font-size: 14px;
