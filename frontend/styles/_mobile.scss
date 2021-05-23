@@ -227,21 +227,6 @@ main {
           .price {
             font-size: 20px;
           }
-          // .price-checkout {
-          //   font-size: 20px;
-          //   color: $price-check;
-          //   font-weight: 600;
-          //   margin-bottom: 20px;
-          // }
-          // .quantity {
-          //   width: 120px;
-          //   input {
-          //     font-size: 16px;
-          //     font-weight: 700;
-          //     border: none;
-          //     border-bottom: 1px solid #818181;
-          //   }
-          // }
           .value {
             font-size: 18px;
           }
@@ -249,34 +234,27 @@ main {
       }
       .transaction {
         small {
-          font-size: 14px;
-          color: #727272;
+          font-size: 12px
         }
         p {
-          font-size: 18px;
-          margin-bottom: 3px;
+          font-size: 16px;
           span {
-            color: #ffffff;
-            padding: 5px 10px;
-            border-radius: 5px;
-            margin-left: 20px;
+            padding: 3px 10px;
           }
         }
         a {
-          margin-top: 30px;
-          color: #ffffff;
-          background-color: #c2c2c2;
+          margin-top: 10px;
+          padding: 5px 20px;
         }
         img {
-          height: 60px;
-          width: 60px;
+          height: 30px;
+          width: 30px;
           margin-right: 5px;
         }
         h1 {
-          font-size: 26px;
+          font-size: 18px;
           font-weight: 600;
-          margin-top: 10px;
-          color: $price-check;
+          margin-top: 2px;
         }
       }
       .transaction-detail {
@@ -342,16 +320,16 @@ main {
   }
   .success {
     img {
-      height: 250px;
+      height: 150px;
       margin-bottom: 20px;
-      margin-top: 20px;
+      margin-top: 80px;
     }
     h1 {
-      font-size: 32px;
+      font-size: 22px;
       font-weight: 700;
     }
     p {
-      font-weight: 26px;
+      font-size: 14px;
       font-style: italic;
       color: #727272;
     }
