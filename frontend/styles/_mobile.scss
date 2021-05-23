@@ -15,7 +15,7 @@ nav {
       }
     }
     .nav-hiden-text {
-      font-size: 18px;
+      font-size: 16px;
       margin-left: 10px;
       color: #000000 !important;
     }
@@ -164,14 +164,27 @@ main {
                 }
               }
             }
+            // Checkout
             h5 { font-size: 18px; }
+            form {
+              label, .custom-file-label { font-size: 12px; }
+              input, textarea, select {
+                font-size: 14px;
+              }
+            }
             .products-checkout {
               img {
-                width: 80px;
-                height: 80px;
+                width: 60px;
+                height: 60px;
               }
-              h1 { font-size: 22px; }
-              h3 { font-size: 14px; }
+              h1 {
+                font-size: 18px;
+                margin-bottom: 1px;
+              }
+              h3 {
+                font-size: 12px;
+                margin-bottom: 1px;
+              }
               h2 { font-size: 16px; }
             }
             .pembayaran {
@@ -181,6 +194,9 @@ main {
               }
               .instruksi {
                 font-size: 14px;
+              }
+              .instruksi.font-italic {
+                font-size: 12px;
               }
               img {
                 height: 50px;
