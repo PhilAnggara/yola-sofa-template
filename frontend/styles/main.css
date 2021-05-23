@@ -444,7 +444,7 @@ main .success p {
   }
   nav .navbar-nav .nav-hiden-text {
     font-size: 18px;
-    font-weight: 600;
+    margin-left: 10px;
     color: #000000 !important;
   }
   nav .navbar-nav .vertical-devider {
@@ -518,6 +518,12 @@ main .success p {
     font-size: 16px;
     font-weight: 500;
   }
+  main .content .row .col-right .position-sticky .card-title {
+    font-size: 18px;
+  }
+  main .content .row .col-right .position-sticky p {
+    font-size: 14px;
+  }
   main .content .row .col-right .position-sticky .normal-price {
     height: 20px;
   }
@@ -525,7 +531,10 @@ main .success p {
     font-size: 14px;
   }
   main .content .row .col-right .position-sticky .price {
-    font-size: 22px;
+    font-size: 20px;
+  }
+  main .content .row .col-right .position-sticky .total-qty {
+    font-size: 18px;
   }
   main .content .row .detail .card h1 {
     font-size: 20px;
@@ -537,65 +546,42 @@ main .success p {
     font-size: 18px;
     margin-bottom: 20px;
   }
-  main .content .row .cart-lists .card .card-body {
-    padding: 10px;
-  }
   main .content .row .cart-lists .card .card-body img {
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
   }
   main .content .row .cart-lists .card .card-body h1 {
-    font-size: 22px;
-    font-weight: 400;
-  }
-  main .content .row .cart-lists .card .card-body h1 a {
-    text-decoration: none;
-    color: #2e2e2e;
-  }
-  main .content .row .cart-lists .card .card-body h1 a:hover {
-    color: #7e7e7e;
+    font-size: 18px;
+    margin-top: 5px;
   }
   main .content .row .cart-lists .card .card-body .normal-price {
     margin-top: -5px;
     height: 20px;
   }
-  main .content .row .cart-lists .card .card-body .normal-price strike {
-    color: #eb6d3c;
-  }
   main .content .row .cart-lists .card .card-body .normal-price strike span {
-    font-size: 18px;
-    color: #c5c5c5;
+    font-size: 14px;
   }
   main .content .row .cart-lists .card .card-body h2 {
-    margin-top: 5px;
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 18px;
   }
   main .content .row .cart-lists .card .card-body nav {
-    height: 33px;
+    height: 20px;
   }
   main .content .row .cart-lists .card .card-body nav a {
-    margin-top: -7px;
+    margin-top: -12px;
   }
   main .content .row .cart-lists .card .card-body nav .vertical-devider {
-    margin-top: -5px;
+    margin-bottom: 10px;
   }
   main .content .row .cart-lists .card .card-body nav .quantity {
-    width: 120px;
-    margin-top: 1px;
+    width: 110px;
+    margin-top: -7px;
   }
   main .content .row .cart-lists .card .card-body nav .quantity button {
-    height: 30px;
-    width: 30px;
+    margin-bottom: -10px;
   }
   main .content .row .cart-lists .card .card-body nav .quantity button i {
     font-size: 10px;
-  }
-  main .content .row .cart-lists .card .card-body nav .quantity input {
-    font-size: 16px;
-    font-weight: 700;
-    border: none;
-    border-bottom: 1px solid #818181;
   }
   main .content .row .cart-lists .card .card-body .products-checkout img {
     width: 80px;
