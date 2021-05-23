@@ -628,27 +628,28 @@ main .success p {
   main .content .row .col-right .position-sticky .value {
     font-size: 18px;
   }
-  main .content .row .transaction small {
+  main .content .row .transaction .card .card-body {
+    padding: 10px;
+  }
+  main .content .row .transaction .card .card-body small {
     font-size: 12px;
   }
-  main .content .row .transaction p {
+  main .content .row .transaction .card .card-body p {
     font-size: 16px;
   }
-  main .content .row .transaction p span {
+  main .content .row .transaction .card .card-body p span {
     padding: 3px 10px;
   }
-  main .content .row .transaction a {
+  main .content .row .transaction .card .card-body a {
     margin-top: 10px;
     padding: 5px 20px;
   }
-  main .content .row .transaction img {
+  main .content .row .transaction .card .card-body img {
     height: 30px;
     width: 30px;
-    margin-right: 5px;
   }
-  main .content .row .transaction h1 {
+  main .content .row .transaction .card .card-body h1 {
     font-size: 18px;
-    font-weight: 600;
     margin-top: 2px;
   }
   main .content .row .transaction-detail .card-title {
