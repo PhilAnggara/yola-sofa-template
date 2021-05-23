@@ -355,6 +355,11 @@ main .content .row .transaction-detail p {
   font-size: 18px;
   margin-bottom: 5px;
 }
+main .content .row .transaction-detail a {
+  color: #8d8d8d;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
 main .content .row .transaction-detail .products img {
   width: 60px;
   height: 60px;
@@ -390,6 +395,7 @@ main .content .row .transaction-detail .subtotal .sub-bold p {
 }
 main .content .row .transaction-detail .subtotal .sub-bold h4 {
   font-weight: 600;
+  color: #f08344;
 }
 main .success img {
   height: 250px;
@@ -652,60 +658,64 @@ main .success p {
     font-size: 18px;
     margin-top: 2px;
   }
-  main .content .row .transaction-detail .card-title {
-    font-size: 20px;
-    margin-top: 15px;
+  main .content .row .transaction-detail .card .card-body {
+    padding: 10px;
   }
-  main .content .row .transaction-detail small {
+  main .content .row .transaction-detail .card .card-body .card-title {
     font-size: 16px;
-    color: #727272;
+    margin-top: 0px;
   }
-  main .content .row .transaction-detail span {
-    color: #ffffff;
-    padding: 5px 10px;
-    border-radius: 5px;
-    display: inline-block;
-    margin-top: 5px;
+  main .content .row .transaction-detail .card .card-body small {
+    font-size: 12px;
   }
-  main .content .row .transaction-detail p {
-    font-size: 18px;
-    margin-bottom: 5px;
+  main .content .row .transaction-detail .card .card-body span {
+    padding: 3px 10px;
+    margin-top: 0px;
   }
-  main .content .row .transaction-detail .products img {
+  main .content .row .transaction-detail .card .card-body p {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  main .content .row .transaction-detail .card .card-body a {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+  main .content .row .transaction-detail .card .card-body .products img {
     width: 60px;
     height: 60px;
   }
-  main .content .row .transaction-detail .products h1 {
+  main .content .row .transaction-detail .card .card-body .products h1 {
     font-size: 20px;
-    margin-bottom: 2px;
+    margin-bottom: 0px;
   }
-  main .content .row .transaction-detail .products h1 a {
+  main .content .row .transaction-detail .card .card-body .products h1 a {
     text-decoration: none;
     color: #2e2e2e;
   }
-  main .content .row .transaction-detail .products h1 a:hover {
+  main .content .row .transaction-detail .card .card-body .products h1 a:hover {
     color: #7e7e7e;
   }
-  main .content .row .transaction-detail .products h3 {
+  main .content .row .transaction-detail .card .card-body .products h3 {
     font-size: 12px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
   }
-  main .content .row .transaction-detail .products h2 {
+  main .content .row .transaction-detail .card .card-body .products h2 {
     font-size: 16px;
     font-weight: 600;
   }
-  main .content .row .transaction-detail .subtotal p {
-    font-size: 16px;
+  main .content .row .transaction-detail .card .card-body .subtotal p {
+    font-size: 14px;
   }
-  main .content .row .transaction-detail .subtotal h4 {
-    font-size: 22px;
+  main .content .row .transaction-detail .card .card-body .subtotal h4 {
+    font-size: 18px;
     font-weight: 400;
   }
-  main .content .row .transaction-detail .subtotal .sub-bold p {
+  main .content .row .transaction-detail .card .card-body .subtotal .sub-bold p {
     font-weight: 600;
   }
-  main .content .row .transaction-detail .subtotal .sub-bold h4 {
+  main .content .row .transaction-detail .card .card-body .subtotal .sub-bold h4 {
     font-weight: 600;
+    color: #f08344;
   }
   main .success img {
     height: 150px;
